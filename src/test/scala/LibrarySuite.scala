@@ -25,4 +25,9 @@ class LibrarySuite extends FunSuite {
     def library = new Library()
     assert(library.anotherLibraryMethod == "Hello World!")
   }
+
+  test("MU210.someLibraryMethod is always true") {
+    def mu210 = new MU210()
+    assert(mu210.someLibraryMethod)
+  }
 }
