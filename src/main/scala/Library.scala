@@ -6,4 +6,5 @@
  */
 class Library {
   def someLibraryMethod(): Boolean = true
+  def anotherLibraryMethod(): String = "Hello World!"
 }
