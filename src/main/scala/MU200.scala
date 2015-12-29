@@ -4,7 +4,7 @@
  *
  * @author lena, @date 12/10/15 12:56 PM
  */
-class Library {
+class MU200 {
   def someLibraryMethod(): Boolean = true
   def anotherLibraryMethod(): String = "Hello World!"
   def thirdLibraryMethod(): Boolean = false
